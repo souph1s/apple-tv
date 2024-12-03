@@ -1,14 +1,16 @@
+import { Container } from "./components/container";
+import { Header } from "./components/header";
 import "./styles.css";
 
 function App() {
   return (
     <>
-      <header>Apple TV+</header>
+      <Header />
       <main>
-        <div>Hero Component</div>
-        <div>USPS</div>
-        <div>3 columns</div>
-        <div>Carousel With Posters</div>
+        <div><Container>Hero Component</Container></div>
+        <div><Container>USPS</Container></div>
+        <div><Container>3 columns</Container></div>
+        <div><Container>Carousel With Posters</Container></div>
       </main>
     </>
   );
