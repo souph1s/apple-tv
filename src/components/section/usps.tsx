@@ -1,5 +1,6 @@
 import { Container } from '../container';
 import { FadeIn } from '../fade-in';
+
 export const Usps = () => {
   return (
     <Container className="relative z-10 max-w-[692px] space-y-12 py-36 text-3xl font-bold text-white md:text-4xl">
