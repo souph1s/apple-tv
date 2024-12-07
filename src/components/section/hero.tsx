@@ -4,11 +4,10 @@ import { Container } from '../container';
 export const Hero = () => {
   return (
     <div className="bg-background relative text-white h-[300vh]">
-      <div className="absolute left-0 top-0 w-full">
+      <div className="absolute left-0 -top-[--header-height] h-[200vh] w-full">
         <img
           src="/img/apple-tv-rebuild/posters/napoleon.webp"
-          alt=""
-          className="w-full h-full object-cover"
+          className="w-full top-0 h-screen object-cover sticky"
         />
       </div>
       <Container className="relative z-10 pb-7 min-h-[--hero-height] flex flex-col justify-end items-start">
