@@ -4,9 +4,14 @@ export type Movie = {
 };
 export const movies = [
   { poster: 'img/apple-tv-rebuild/posters/airplane.webp', name: 'Airplane' },
+  { poster: 'img/apple-tv-rebuild/posters/coffee.webp', name: 'Coffee' },
   {
-    poster: 'img/apple-tv-rebuild/posters/family-man.webp',
-    name: 'Family man',
+    poster: 'img/apple-tv-rebuild/posters/fishermans.webp',
+    name: 'Fishermans',
+  },
+  {
+    poster: 'img/apple-tv-rebuild/posters/library.webp',
+    name: 'Library',
   },
   {
     poster: 'img/apple-tv-rebuild/posters/laboratory.webp',
@@ -21,7 +26,7 @@ export const movies = [
     poster: 'img/apple-tv-rebuild/posters/scary-building.webp',
     name: 'Scary Building',
   },
-  { poster: 'img/apple-tv-rebuild/posters/stars.webp', name: 'Stars' },
+  { poster: 'img/apple-tv-rebuild/posters/character.webp', name: 'Character' },
 ];
 export const randomMoviesSet1 = movies
   .sort(() => Math.random() - 0.5)
