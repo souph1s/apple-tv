@@ -2,6 +2,7 @@ import { Container } from './components/container';
 import { Header } from './components/header';
 import { Hero } from './components/section/hero';
 import { Usps } from './components/section/usps';
+import { VideoCarousel } from './components/section/video-carousel';
 import './styles.css';
 
 function App() {
@@ -13,9 +14,9 @@ function App() {
           <Hero />
           <Usps />
         </div>
-        <div>
-          <Container>3 columns</Container>
-        </div>
+        <VideoCarousel />
+
+        <div className="h-[300vh]" />
         <div>
           <Container>Carousel With Posters</Container>
         </div>
