@@ -1,3 +1,4 @@
+import { Button } from './components/button';
 import { Container } from './components/container';
 import { Header } from './components/header';
 import { Hero } from './components/section/hero';
@@ -18,9 +19,18 @@ function App() {
         </div>
         <VideoCarousel />
 
-        <div className="h-[300vh]" />
         <div>
-          <Container>Carousel With Posters</Container>
+          <p className="bg-background -mt-2 text-white">
+            Created by{' '}
+            <Button size="small">
+              <a
+                href="https://www.linkedin.com/in/sophiamuraro/"
+                target="_blank"
+              >
+                @souphis
+              </a>
+            </Button>
+          </p>
         </div>
       </main>
     </>
